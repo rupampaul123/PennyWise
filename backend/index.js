@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 async function main() {
-  await mongoose.connect("mongodb://127.0.0.1:27017/PennyWise");
+  await mongoose.connect("mongodb+srv://rupampaulbag:ronsunbum@cluster0.n2kiclx.mongodb.net/");
   console.log("Connected to database");
 }
 

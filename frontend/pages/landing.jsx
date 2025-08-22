@@ -61,6 +61,17 @@ export default function Landing() {
               View Expenses
             </Link>
           </div>
+           {/* Navigation Instructions - Fixed at bottom */}
+      <div className="fixed bottom-0 left-0 right-0 z-50 p-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="bg-teal-400/10 border border-teal-400/20 rounded-lg p-3 backdrop-blur-sm">
+            <p className="text-teal-300 text-sm text-center">
+              💡 <span className="font-semibold">This website is fully functional!</span> <br/>
+              Use the navigation buttons to explore all features - add expenses, view expenses, and more.
+            </p>
+          </div>
+        </div>
+      </div>
         </div>
       </div>
     </>

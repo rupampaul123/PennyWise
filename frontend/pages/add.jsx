@@ -14,7 +14,7 @@ export default function Add() {
     const expense = { date, category, description, amount }
 
     try {
-      const res = await fetch("https://pennywise-satc.onrender.com/add", {
+      const res = await fetch("http://localhost:3000/add", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -11,7 +11,7 @@ export default function Show() {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    fetch("https://pennywise-satc.onrender.com/show")
+    fetch("http://localhost:3000/show")
       .then((res) => res.json())
       .then((res) => {
         setAllExpenses(res);

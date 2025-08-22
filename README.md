@@ -3,6 +3,16 @@
 🚀 PennyWise is a fully deployed Full-Stack web application that helps users track and visualize their daily expenses.
 It’s built with the MERN stack (MongoDB, Express, React, Node.js) and integrates interactive charts, CRUD operations, and live deployment – proving complete end-to-end development skills.
 
+
+ ## 🌍 Deployment
+
+🔗 [Frontend (React): Live on Vercel](https://penny-wise-f2m5.vercel.app/)
+
+🔗 [Backend (Express API): Live on Render](https://pennywise-satc.onrender.com)
+
+✅ Both are deployed and working together as a real-world full-stack project.
+
+
 ## 🌟 Why PennyWise?
 
 Many projects are either just frontend demos or basic backend APIs.
@@ -59,14 +69,6 @@ npm install
 npm run dev
 
 ```
-
- ## 🌍 Deployment
-
-🔗 [Frontend (React): Live on Vercel](https://penny-wise-f2m5.vercel.app/)
-
-🔗 [Backend (Express API): Live on Render](https://pennywise-satc.onrender.com)
-
-✅ Both are deployed and working together as a real-world full-stack project.
 
  ## 📌 Future Roadmap
 
